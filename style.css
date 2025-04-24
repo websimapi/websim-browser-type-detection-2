@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+body.is-automated {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+body.is-human {
+    background-color: lightcoral;
+    color: darkred;
+}
+
+h1, p {
+    position: relative; /* Ensure text is visible over background */
+    z-index: 1;
+}
+
+
